@@ -1,0 +1,27 @@
+{
+  "name": "spamprotection",
+  "version": "1.0.0",
+  "description": "(un)Official SpamProtection API Wrapper for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/lookup/netkaspam.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadeByThePinsHub/Intellivoid-SPB-JS-Wrapper.git"
+  },
+  "keywords": [
+    "spamprotection",
+    "api",
+    "intellivoid"
+  ],
+  "author": "Andrei Jiroh Eugenio Halili <andreijiroh@madebythepins.tk>",
+  "license": "LGPL-2.1-or-later",
+  "bugs": {
+    "url": "https://github.com/MadeByThePinsHub/Intellivoid-SPB-JS-Wrapper/issues"
+  },
+  "homepage": "https://github.com/MadeByThePinsHub/Intellivoid-SPB-JS-Wrapper#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
