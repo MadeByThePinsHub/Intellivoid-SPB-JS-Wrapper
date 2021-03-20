@@ -22,7 +22,14 @@
  * Work in progress
  * Will published soon
  */
+
+const Base = require("./base");
 class Client {
+    async queryUser(userToQuery) {
+        return this._send("/v1/lookup", false, {
+            query: userToQuery
+        })
+    }
 }
 
 module.exports = {

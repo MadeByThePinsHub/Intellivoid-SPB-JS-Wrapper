@@ -1,3 +1,3 @@
 module.exports = {
-    Client: reqiure('./client')
+    SPB = require("./src/client") // Need some help!
 };

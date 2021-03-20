@@ -4,7 +4,8 @@
   "description": "(un)Official SpamProtection API Wrapper for JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/lookup/netkaspam.js"
+    "test": "node tests/lookup/netkaspam.js",
+    "format": "prettier"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/MadeByThePinsHub/Intellivoid-SPB-JS-Wrapper#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   }
 }
