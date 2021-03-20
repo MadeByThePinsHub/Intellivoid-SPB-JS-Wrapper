@@ -1,5 +1,5 @@
-const Client = require("../../index.js");
-const lookupApi = new Client.SPB;
+const Client = require("../../index.js").SPB.Client;
+const lookupApi = new Client;
 
 (async () => {
     // Telegram username
