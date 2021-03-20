@@ -2,7 +2,7 @@
   "name": "spamprotection",
   "version": "1.0.0",
   "description": "(un)Official SpamProtection API Wrapper for JavaScript",
-  "main": "index.js",
+  "main": "src/client.js",
   "scripts": {
     "test": "node tests/lookup/netkaspam.js",
     "format": "prettier"

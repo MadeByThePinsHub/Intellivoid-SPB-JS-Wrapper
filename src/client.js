@@ -24,13 +24,18 @@
  */
 
 const Base = require("./base");
-class Client {
+class Client extends Base {
+    // reserved for future API stuff
+    //constructor(access_key) {
+    //    super(access_key);
+    //}
+
     async queryUser(userToQuery) {
-        return this._send("/v1/lookup", false, {
+        return this._send("/v1/lookup", {
             query: userToQuery
         })
     }
-}
+};
 
 module.exports = {
     Client,

@@ -1,4 +1,4 @@
-const Client = require("../../index.js").SPB.Client;
+const Client = require("../../src/client.js").Client;
 const lookupApi = new Client;
 
 (async () => {
